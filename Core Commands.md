@@ -9,3 +9,13 @@ git clone https://github.com/NileshGule/cSharpCollectionFundamentals.git cSharpC
 ```bash
 dotnet new sln --name CollectionFundamentals
 ```
+
+### Create new project `Arrays` of the type console application
+```bash
+dotnet new console --name Arrays
+```
+
+### Add the newly created project to solution
+```bash
+dotnet sln add ./Arrays/Arrays.csproj
+```
