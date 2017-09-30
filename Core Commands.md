@@ -19,3 +19,13 @@ dotnet new console --name Arrays
 ```bash
 dotnet sln add ./Arrays/Arrays.csproj
 ```
+
+### Run the Arrays project using solution
+```bash
+dotnet run CollectionFundamentals.sln --project Arrays
+```
+
+### Run the Arrays project using project by navigating to Arrays directory
+```bash
+dotnet run Arrays
+```
