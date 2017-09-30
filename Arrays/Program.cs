@@ -6,7 +6,15 @@ namespace Arrays
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string[] daysOfWeek = {
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday"
+            };
         }
     }
 }
