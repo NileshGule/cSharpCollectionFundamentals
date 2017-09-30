@@ -15,6 +15,22 @@ namespace Arrays
                 "Saturday",
                 "Sunday"
             };
+
+            //C# 7 nested function
+            void PrintElements(string[] array)
+            {
+                foreach (string day in array)
+                {
+                    Console.WriteLine(day);
+                }
+            }
+
+            PrintElements(daysOfWeek);
+
+            // Replace element in the array
+            daysOfWeek[5] = "PartyDay";
+
+            PrintElements(daysOfWeek);
         }
     }
 }
