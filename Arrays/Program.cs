@@ -27,6 +27,10 @@ namespace Arrays
 
             PrintElements(daysOfWeek);
 
+            Console.WriteLine();
+            Console.WriteLine("Replacing 6th element in the array");
+            Console.WriteLine();
+
             // Replace element in the array
             daysOfWeek[5] = "PartyDay";
 
