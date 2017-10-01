@@ -29,6 +29,13 @@ namespace Arrays
             {
                 Console.WriteLine(daysOfWeek[index]);
             }
+
+            Console.WriteLine($"{Environment.NewLine}Enumerating 3 elements using for {Environment.NewLine}");
+
+            for (int index = 0; index < 3; index++)
+            {
+                Console.WriteLine(daysOfWeek[index]);
+            }
         }
     }
 }
