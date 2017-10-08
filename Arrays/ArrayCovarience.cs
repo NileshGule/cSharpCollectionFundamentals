@@ -20,10 +20,11 @@ namespace Arrays
 
             object[] objectArray2 = daysOfWeek;
 
-            foreach (object obj in objectArray2)
-            {
-                Console.WriteLine(obj);
-            }
+            objectArray1[0] = 3;
+            Console.WriteLine($"objectArray[0] = {objectArray1[0]}");
+
+            // Covarience does not work here 
+            // daysOfWeek[2] = 4;
         }   
     }
 }
