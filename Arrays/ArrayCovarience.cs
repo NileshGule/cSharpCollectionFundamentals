@@ -8,15 +8,7 @@ namespace Arrays
         {
             object[] objectArray1 = new object[3];
 
-            string[] daysOfWeek = {
-                "Monday",
-                "Tuesday",
-                "Wednesday",
-                "Thursday",
-                "Friday",
-                "Saturday",
-                "Sunday"
-            };
+            string[] daysOfWeek = ArrayUtils.DaysOfWeek;
 
             object[] objectArray2 = daysOfWeek;
 
