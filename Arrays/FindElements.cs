@@ -19,6 +19,13 @@ namespace Arrays
 
             string[] daysStartingWithS = Array.FindAll(daysOfWeek, x=>x.StartsWith('S')).ToArray();
 
+            if(daysStartingWithS.Length > 0)
+            {
+                foreach (string day in daysStartingWithS)
+                {
+                    Console.WriteLine(day);
+                }
+            }
         }
     }
 }
