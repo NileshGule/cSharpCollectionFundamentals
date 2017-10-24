@@ -9,14 +9,18 @@ namespace Arrays
         {
             string[] daysOfWeek = ArrayUtils.DaysOfWeek;
 
-            Console.WriteLine("Initial days of week");
-            Array.ForEach(daysOfWeek, x => Console.WriteLine(x));
+            void print(string[] inputArray, string message)
+            {
+                Console.WriteLine();
+                Console.WriteLine(message);
+                Array.ForEach(daysOfWeek, x => Console.WriteLine(x));    
+            }
 
+            print(daysOfWeek, "Initial days of week");
+            
             Array.Sort(daysOfWeek);
 
-            Console.WriteLine();
-            Console.WriteLine("Alphabetically sorted days of week");
-            Array.ForEach(daysOfWeek, x => Console.WriteLine(x));
+            print(daysOfWeek, "Alphabetically sorted days of week");
                         
             int indexOfTuesday = Array.BinarySearch(daysOfWeek, "Tuesday");
 
