@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace Arrays
 {
-    class ReverseArray
+    class SortArray
     {      
         static void Main(string[] args)
         {
