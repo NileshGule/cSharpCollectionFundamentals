@@ -12,5 +12,5 @@ env:
 script:
   - pwd
   - ls -lart
-  - dotnet build */**/*.csproj
+  - dotnet build Arrays/arrays.csproj
   - bash <(curl -s https://codecov.io/bash)
