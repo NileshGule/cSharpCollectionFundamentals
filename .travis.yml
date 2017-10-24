@@ -1,6 +1,7 @@
 language: csharp
 mono: none
 dist: trusty
+dotnet: 2.0
 env:
   - CLI_VERSION=latest
 
