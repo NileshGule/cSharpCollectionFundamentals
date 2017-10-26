@@ -7,7 +7,7 @@ namespace Arrays
     {
         static void Main(string[] args)
         {
-            int[] squares = {1, 4, 9, 16, 25};;
+            int[] squares = {1, 4, 9, 16, 25};
 
             Console.WriteLine($"Size of array = {squares.Length}");
 

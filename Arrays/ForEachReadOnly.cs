@@ -6,15 +6,7 @@ namespace Arrays
     {
         static void Main(string[] args)
         {
-            string[] daysOfWeek = {
-                "Monday",
-                "Tuesday",
-                "Wednesday",
-                "Thursday",
-                "Friday",
-                "Saturday",
-                "Sunday"
-            };
+            string[] daysOfWeek = ArrayUtils.DaysOfWeek;
 
             Console.WriteLine($"Enumerating using foreach loop {Environment.NewLine}");
 
