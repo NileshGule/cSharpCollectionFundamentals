@@ -10,8 +10,6 @@ namespace Arrays
         {
             string[] daysOfWeek = ArrayUtils.DaysOfWeek;
 
-            string[] originalDaysOfWeek = daysOfWeek.ToArray();
-
             Console.WriteLine("Sort using static Array.Sort method");
 
             Array.Sort(daysOfWeek);

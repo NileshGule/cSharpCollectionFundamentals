@@ -4,7 +4,7 @@ namespace Arrays
 {
     public static class ArrayUtils
     {
-        public static string[] DaysOfWeek => new string[] {
+        public static string[] DaysOfWeek => new [] {
             "Monday",
             "Tuesday",
             "Wednesday",
