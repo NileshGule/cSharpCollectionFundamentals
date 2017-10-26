@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace Arrays
 {
-    class ArrayCopy
+    static class ArrayCopy
     {
         static void Main(string[] args)
         {

@@ -2,7 +2,7 @@ using System;
 
 namespace Arrays
 {
-    class ArrayCovarience
+    static class ArrayCovarience
     {      
         static void Main(string[] args)
         {

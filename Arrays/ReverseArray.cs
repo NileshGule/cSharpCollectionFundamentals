@@ -3,19 +3,11 @@ using System.Linq;
 
 namespace Arrays
 {
-    class ReverseArray
+    static class ReverseArray
     {      
         static void Main(string[] args)
         {
-            string[] daysOfWeek = {
-                "Monday",
-                "Tuesday",
-                "Wednesday",
-                "Thursday",
-                "Friday",
-                "Saturday",
-                "Sunday"
-            };
+            string[] daysOfWeek = ArrayUtils.DaysOfWeek;
 
             string[] originalDaysOfWeek = daysOfWeek.ToArray();
 

@@ -2,7 +2,7 @@ using System;
 
 namespace Arrays
 {
-    class ArrayInitializer
+    static class ArrayInitializer
     {
         static void Main(string[] args)
         {

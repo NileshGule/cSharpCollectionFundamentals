@@ -2,7 +2,7 @@ using System;
 
 namespace Arrays
 {
-    class ForEachReadOnly
+    static class ForEachReadOnly
     {
         static void Main(string[] args)
         {

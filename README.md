@@ -11,4 +11,7 @@ Examples contain following :
     * [Array Enumeration](Arrays/ArrayEnumeration.cs)
     * [Array initialization](Arrays/ArrayInitializer.cs)
     * [Arrays as reference types](Arrays/ArraysAsRefType.cs)
+    * [Binary Search](Arrays/BinarySearch.cs)
+    * [Find Elements](Arrays/FindElements.cs)
+    * [Array Enumeration](Arrays/ForEachReadOnly.cs)
 * Collections

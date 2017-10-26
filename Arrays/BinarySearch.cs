@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace Arrays
 {
-    class BinarySearch
+    static class BinarySearch
     {
         static void Main(string[] args)
         {

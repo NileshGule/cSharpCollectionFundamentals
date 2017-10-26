@@ -6,16 +6,6 @@ namespace Arrays
     {
         static void Main(string[] args)
         {
-            string[] daysOfWeek = {
-                "Monday",
-                "Tuesday",
-                "Wednesday",
-                "Thursday",
-                "Friday",
-                "Saturday",
-                "Sunday"
-            };
-
             //C# 7 nested function
             void PrintElements(string[] array)
             {
@@ -24,6 +14,7 @@ namespace Arrays
                     Console.WriteLine(day);
                 }
             }
+            string[] daysOfWeek = ArrayUtils.DaysOfWeek;
 
             PrintElements(daysOfWeek);
 

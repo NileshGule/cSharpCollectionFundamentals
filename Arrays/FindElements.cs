@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace Arrays
 {
-    class FindElements
+    static class FindElements
     {
         static void Main(string[] args)
         {

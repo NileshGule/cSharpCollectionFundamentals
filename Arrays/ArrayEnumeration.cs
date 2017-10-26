@@ -2,7 +2,7 @@ using System;
 
 namespace Arrays
 {
-    class ArrayEnumeration
+    static class ArrayEnumeration
     {
         static void Main(string[] args)
         {
