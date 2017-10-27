@@ -9,11 +9,9 @@ namespace Arrays
             //C# 7 nested function
             void PrintElements(string[] array)
             {
-                foreach (string day in array)
-                {
-                    Console.WriteLine(day);
-                }
+                Array.ForEach(array, d => Console.WriteLine(d));
             }
+            
             string[] daysOfWeek = ArrayUtils.DaysOfWeek;
 
             PrintElements(daysOfWeek);
