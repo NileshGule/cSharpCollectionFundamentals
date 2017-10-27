@@ -29,3 +29,17 @@ dotnet run CollectionFundamentals.sln --project Arrays
 ```bash
 dotnet run Arrays
 ```
+
+### Create new project __`Arrays`__ of the type console application
+```bash
+dotnet new console --name Collections
+```
+
+### Add the newly created project to solution
+```bash
+dotnet sln add ./Collections/Collections.csproj
+```
+### Run the Collections project using project by navigating to __Arrays__ directory
+```bash
+dotnet run Collections
+```
