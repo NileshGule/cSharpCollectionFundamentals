@@ -8,6 +8,13 @@ namespace Collections
     {
         static void Main(string[] args)
         {
+            List<string> dummyList = new List<string>();
+            Console.WriteLine($"Initial Capacity of list : {dummyList.Capacity}");
+
+            List<string> dummyList1 = new List<string>{"starting element"};
+
+            Console.WriteLine($"Initial Capacity of list : {dummyList1.Capacity}");
+
             const int INITIAL_LIST_CAPACITY = 3;
             List<string> primeMinisters = new List<string>(INITIAL_LIST_CAPACITY) {
                 "Narendra Modi",
@@ -15,7 +22,7 @@ namespace Collections
                 "Atal Bihari Vajpeyi",
                 "Rajiv Gandhi",
                 "Inder Kumar Gujaral",
-                "H D Devegowda"
+                // "H D Devegowda"
             };
 
             Console.WriteLine("Indian Prime Ministers:");
@@ -37,6 +44,10 @@ namespace Collections
             Console.WriteLine("Adding older Prime Ministers");
 
             primeMinisters.AddRange(new List<string> {"Indira Gandhi", "Lal Bahadur Shastri"});
+
+            printList(primeMinisters);
+
+            primeMinisters.AddRange(new List<string> {"Jawaharlal Nehru", "Morarji Desai", "Chndrashekar", "V P Singh"});
 
             printList(primeMinisters);
         }
