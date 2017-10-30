@@ -30,7 +30,7 @@ namespace Arrays
             for (int index = 0; index  < daysOfWeek.Length; index++)
             {
                 // replace values
-                daysOfWeek[index] = daysOfWeek[index] + "s";
+                daysOfWeek[index] = $"{daysOfWeek[index]}s";
 
                 Console.WriteLine(daysOfWeek[index]);
             }

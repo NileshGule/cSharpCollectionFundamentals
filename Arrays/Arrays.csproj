@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.0</TargetFramework>
-    <StartupObject>Arrays.Program</StartupObject>
+    <StartupObject>Arrays.ForEachReadOnly</StartupObject>
   </PropertyGroup>
 
 </Project>
