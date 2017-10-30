@@ -8,7 +8,8 @@ namespace Collections
     {
         static void Main(string[] args)
         {
-            List<string> primeMinisters = new List<string> {
+            const int INITIAL_LIST_CAPACITY = 3;
+            List<string> primeMinisters = new List<string>(INITIAL_LIST_CAPACITY) {
                 "Narendra Modi",
                 "Manmohan Singh",
                 "Atal Bihari Vajpeyi",
@@ -23,6 +24,21 @@ namespace Collections
             {
                 Console.WriteLine(primeMinister);
             }
+
+            void printList(List<string> list)
+            {
+                Console.WriteLine();
+                Console.WriteLine($"List capacity = {list.Capacity}");
+                Console.WriteLine($"List count = {list.Count}");
+            }
+
+            printList(primeMinisters);
+
+            Console.WriteLine("Adding older Prime Ministers");
+
+            primeMinisters.AddRange(new List<string> {"Indira Gandhi", "Lal Bahadur Shastri"});
+
+            printList(primeMinisters);
         }
     }
 }
