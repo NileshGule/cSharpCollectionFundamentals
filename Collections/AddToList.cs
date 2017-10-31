@@ -22,7 +22,7 @@ namespace Collections
                 "Atal Bihari Vajpeyi",
                 "Rajiv Gandhi",
                 "Inder Kumar Gujaral",
-                // "H D Devegowda"
+                "H D Devegowda"
             };
 
             Console.WriteLine("Indian Prime Ministers:");
