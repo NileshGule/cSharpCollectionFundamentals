@@ -4,6 +4,8 @@ using System.Collections.Generic;
 
 namespace Collections
 {
+    /// The program demonstrates collection capabilities using List class
+    /// It starts with initial capacity and then goes on to dynamically increase it based on additional items
     static class AddToList
     {
         static void Main(string[] args)

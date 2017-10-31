@@ -17,3 +17,4 @@ Examples contain following :
     * [Reverse Arrays](Arrays/ReverseArray.cs)
     * [Sort Arrays](Arrays/SortArray.cs)
 * Collections
+    * [Dynamic Sizing of collection](Collections/AddToList.cs)
