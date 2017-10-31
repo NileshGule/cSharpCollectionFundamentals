@@ -37,6 +37,12 @@ namespace Collections
             bool isRemoved = primeMinisters.Remove("Rajiv Gandhi");
 
             Console.WriteLine($"Successfully removed element = {isRemoved}");
+
+            Console.WriteLine("Using RemoveAt method");
+
+            primeMinisters.RemoveAt(3);
+
+            printList(primeMinisters);
         }
     }
 }
