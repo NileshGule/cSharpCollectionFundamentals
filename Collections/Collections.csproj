@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.0</TargetFramework>
-    <StartupObject>Collections.ReadOnlyList</StartupObject>
+    <StartupObject>Collections.NonBlankStringList</StartupObject>
   </PropertyGroup>
 
 </Project>

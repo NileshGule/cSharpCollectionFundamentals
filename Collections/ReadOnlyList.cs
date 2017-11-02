@@ -11,10 +11,12 @@ namespace Collections
         {
             const int INITIAL_LIST_CAPACITY = 3;
             
-            ReadOnlyCollection<string> primeMinisters = CollectionUtils.GetPrimeMinisters(INITIAL_LIST_CAPACITY)
-                                                                        .AsReadOnly();
+            IReadOnlyCollection<string> primeMinisters = CollectionUtils
+                                                        .GetPrimeMinisters(INITIAL_LIST_CAPACITY)
+                                                        .AsReadOnly();
 
             Console.WriteLine("Indian Prime Ministers:");
+            
             CollectionUtils.PrintList(primeMinisters.ToList());
         }
     }

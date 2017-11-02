@@ -18,3 +18,6 @@ Examples contain following :
     * [Sort Arrays](Arrays/SortArray.cs)
 * Collections
     * [Dynamic Sizing of collection](Collections/AddToList.cs)
+    * [Remove items from list](Collections/RemoveFromList.cs)
+    * [Read only collections](Collections/ReadOnlyList.cs)
+    * [Collection example](Collections/NonBlankStringList.cs)
