@@ -16,24 +16,14 @@ namespace Collections
 
             Console.WriteLine("Indian Prime Ministers:");
 
-            // primeMinisters.ForEach(x => Console.WriteLine(x));
-
-            void printList(List<string> list)
-            {
-                Console.WriteLine();
-                Console.WriteLine($"List capacity = {list.Capacity}");
-                Console.WriteLine($"List count = {list.Count}");
-                primeMinisters.ForEach(x => Console.WriteLine(x));
-            }
-
-            printList(primeMinisters);
+            CollectionUtils.PrintList(primeMinisters);
 
             Console.WriteLine();
             Console.WriteLine("Removing Rajiv Gandhi");
 
             primeMinisters.Remove("Rajiv Gandhi");
 
-            printList(primeMinisters);
+            CollectionUtils.PrintList(primeMinisters);
             bool isRemoved = primeMinisters.Remove("Rajiv Gandhi");
 
             Console.WriteLine($"Successfully removed element = {isRemoved}");
@@ -42,7 +32,7 @@ namespace Collections
 
             primeMinisters.RemoveAt(3);
 
-            printList(primeMinisters);
+            CollectionUtils.PrintList(primeMinisters);
         }
     }
 }
