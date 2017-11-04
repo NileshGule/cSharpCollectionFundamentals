@@ -21,22 +21,28 @@ namespace Collections
 
         protected override void InsertItem(int index, string item)
         {
-            if (string.IsNullOrWhiteSpace(item))
+            if (ValidateInput(item))
             {
-                throw new ArgumentException("Element of NonBlankStringList must not be null or whitespace");
+                base.InsertItem(index, item);
             }
-
-            base.InsertItem(index, item);
         }
 
         protected override void SetItem(int index, string item) 
+        {
+            if(ValidateInput(item))
+            {
+                base.SetItem(index, item);
+            }
+        }
+
+        private bool ValidateInput(string item)
         {
             if (string.IsNullOrWhiteSpace(item))
             {
                 throw new ArgumentException("Element of NonBlankStringList must not be null or whitespace");
             }
 
-            base.SetItem(index, item);
+            return true;
         }
     }
 }
