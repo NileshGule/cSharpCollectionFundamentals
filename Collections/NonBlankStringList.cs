@@ -35,7 +35,7 @@ namespace Collections
             }
         }
 
-        private bool ValidateInput(string item)
+        private static bool ValidateInput(string item)
         {
             if (string.IsNullOrWhiteSpace(item))
             {
