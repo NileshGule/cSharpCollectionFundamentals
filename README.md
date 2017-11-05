@@ -26,3 +26,4 @@ Examples contain following :
 * Linked List, Stack and Queue
 	* [Linked List Example](LinkedList/LinkedListExample.cs)
 	* [Stack example](LinkedList/StackExample.cs)
+	* [Queue example](LinkedList/QueueExample.cs)
