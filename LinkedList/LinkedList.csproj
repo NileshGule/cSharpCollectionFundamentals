@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.0</TargetFramework>
-    <StartupObject>LinkedList.LinkedList</StartupObject>
+    <StartupObject>LinkedList.LinkedListExample</StartupObject>
   </PropertyGroup>
 
 </Project>
