@@ -23,6 +23,16 @@ namespace LinkedList
 
             PrintPrimeMinisters(indianPrimeMinisters);
 
+            Console.WriteLine("Removing Indira Gandhi");
+            indianPrimeMinisters.Remove("Indira Gandhi");
+
+            PrintPrimeMinisters(indianPrimeMinisters);
+
+            Console.WriteLine("Adding Narendra Modi as the last PM of India");
+            indianPrimeMinisters.AddLast("Narendra Modi");
+
+            PrintPrimeMinisters(indianPrimeMinisters);
+
         }
 
         private static void PrintPrimeMinisters(LinkedList<string> indianPrimeMinisters)
