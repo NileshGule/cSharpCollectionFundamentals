@@ -14,14 +14,27 @@ namespace LinkedList
             indianPrimeMinisters.AddLast("Indira Gandhi");
             indianPrimeMinisters.AddLast("Rajiv Gandhi");
 
+            PrintPrimeMinisters(indianPrimeMinisters);
+            
+            Console.WriteLine("Adding prime minister after Indira Gandhi");
+
+            LinkedListNode<string> indiraGandhiNode = indianPrimeMinisters.Find("Indira Gandhi");
+            indianPrimeMinisters.AddAfter(indiraGandhiNode, "Morarji Desai");
+
+            PrintPrimeMinisters(indianPrimeMinisters);
+
+        }
+
+        private static void PrintPrimeMinisters(LinkedList<string> indianPrimeMinisters)
+        {
+            Console.WriteLine();
+
             foreach (string primeminister in indianPrimeMinisters)
             {
                 Console.WriteLine(primeminister);
             }
 
-            Console.WriteLine("Adding prime minister after Indira Gandhi");
-
-            
+            Console.WriteLine();
         }
     }
 }
