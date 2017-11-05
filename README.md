@@ -1,5 +1,5 @@
 # C# Collection Fundamentals
-[![Build Status](https://travis-ci.org/NileshGule/cSharpCollectionFundamentals.svg?branch=master)]
+![Build Status](https://travis-ci.org/NileshGule/cSharpCollectionFundamentals.svg?branch=master)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/f091b78b4e654f968b98fb273afbb5b0)](https://www.codacy.com/app/vn_nilesh/cSharpCollectionFundamentals?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=NileshGule/cSharpCollectionFundamentals&amp;utm_campaign=Badge_Grade)
 
 This repository contains code for examples from the [C# Collection fundamentals Pluralsight course](https://app.pluralsight.com/library/courses/csharp-collections).
