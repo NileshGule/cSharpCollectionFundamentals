@@ -28,3 +28,9 @@ Examples contain following :
 	* [Stack example](LinkedList/StackExample.cs)
 	* [Queue example](LinkedList/QueueExample.cs)
 * Dictionaries
+	* Dictionary
+	* ReadOnlyDictionary
+	* SortedList
+	* SortedDictionary
+	* KeydCollection
+	* Hash tables
