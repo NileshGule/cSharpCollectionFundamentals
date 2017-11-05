@@ -1,8 +1,10 @@
 # C# Collection Fundamentals
+[![Build Status](https://travis-ci.org/NileshGule/cSharpCollectionFundamentals.svg?branch=master)]
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/f091b78b4e654f968b98fb273afbb5b0)](https://www.codacy.com/app/vn_nilesh/cSharpCollectionFundamentals?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=NileshGule/cSharpCollectionFundamentals&amp;utm_campaign=Badge_Grade)
 
 This repository contains code for examples from the [C# Collection fundamentals Pluralsight course](https://app.pluralsight.com/library/courses/csharp-collections).
 
-The examples also use features available in C# 6 & 7 like `String Interpolation` and `Inline Functions`
+The codebase builds on the examples from the course and incorporates recent changes to C# language as of Nov 2017.The examples use features available in C# 6 & 7 like `String Interpolation` and `Inline Functions`. The examples also try to use a functional style of programming in C# instead of imperative one. Common example of the functional style is usage of LINQ operators over looping constructs like `for` and `foreach`.
 
 Examples contain following :
 * Arrays
@@ -21,3 +23,4 @@ Examples contain following :
     * [Remove items from list](Collections/RemoveFromList.cs)
     * [Read only collections](Collections/ReadOnlyList.cs)
     * [Collection example](Collections/NonBlankStringList.cs)
+* Linked List

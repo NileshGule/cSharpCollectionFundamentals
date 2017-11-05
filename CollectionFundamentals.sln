@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "Arrays\Arrays.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections", "Collections\Collections.csproj", "{5E46F53B-D900-4B32-B1F9-475200C1D5F5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedList", "LinkedList\LinkedList.csproj", "{D0F75F59-03C5-4D7B-923B-D53D6BD14635}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,5 +46,17 @@ Global
 		{5E46F53B-D900-4B32-B1F9-475200C1D5F5}.Release|x64.Build.0 = Release|x64
 		{5E46F53B-D900-4B32-B1F9-475200C1D5F5}.Release|x86.ActiveCfg = Release|x86
 		{5E46F53B-D900-4B32-B1F9-475200C1D5F5}.Release|x86.Build.0 = Release|x86
+		{D0F75F59-03C5-4D7B-923B-D53D6BD14635}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0F75F59-03C5-4D7B-923B-D53D6BD14635}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0F75F59-03C5-4D7B-923B-D53D6BD14635}.Debug|x64.ActiveCfg = Debug|x64
+		{D0F75F59-03C5-4D7B-923B-D53D6BD14635}.Debug|x64.Build.0 = Debug|x64
+		{D0F75F59-03C5-4D7B-923B-D53D6BD14635}.Debug|x86.ActiveCfg = Debug|x86
+		{D0F75F59-03C5-4D7B-923B-D53D6BD14635}.Debug|x86.Build.0 = Debug|x86
+		{D0F75F59-03C5-4D7B-923B-D53D6BD14635}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0F75F59-03C5-4D7B-923B-D53D6BD14635}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0F75F59-03C5-4D7B-923B-D53D6BD14635}.Release|x64.ActiveCfg = Release|x64
+		{D0F75F59-03C5-4D7B-923B-D53D6BD14635}.Release|x64.Build.0 = Release|x64
+		{D0F75F59-03C5-4D7B-923B-D53D6BD14635}.Release|x86.ActiveCfg = Release|x86
+		{D0F75F59-03C5-4D7B-923B-D53D6BD14635}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 EndGlobal
