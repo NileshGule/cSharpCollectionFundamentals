@@ -22,6 +22,10 @@ namespace LinkedList
             firstTask = tasks.Peek();
             Console.WriteLine($"First task peeked without Dequeuing = {firstTask}");
             PrintTasks(tasks);
+
+            Console.WriteLine(tasks.Count);
+            tasks.TrimExcess();
+            Console.WriteLine(tasks.Count);
         }
 
         private static void PrintTasks(Queue<string> tasks)
