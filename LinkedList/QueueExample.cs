@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace LinkedList
 {
@@ -18,6 +17,10 @@ namespace LinkedList
             string firstTask = tasks.Dequeue();
             Console.WriteLine($"First task dequed = {firstTask}");
 
+            PrintTasks(tasks);
+
+            firstTask = tasks.Peek();
+            Console.WriteLine($"First task peeked without Dequeuing = {firstTask}");
             PrintTasks(tasks);
         }
 
