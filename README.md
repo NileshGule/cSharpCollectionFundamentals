@@ -23,4 +23,6 @@ Examples contain following :
     * [Remove items from list](Collections/RemoveFromList.cs)
     * [Read only collections](Collections/ReadOnlyList.cs)
     * [Collection example](Collections/NonBlankStringList.cs)
-* Linked List
+* Linked List, Stack and Queue
+	* [Linked List Example](LinkedList/LinkedListExample.cs)
+	* [Stack example](LinkedList/StackExample.cs)
