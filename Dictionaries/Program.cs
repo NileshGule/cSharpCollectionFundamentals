@@ -33,6 +33,13 @@ namespace Dictionaries
             {
                 Console.WriteLine("Modiji not found");
             }
+
+            primeMinisters["AV"] = new PrimeMinister("Atal Bihari Vajpeyi", 1996);
+
+            foreach (var primeMinister in primeMinisters)
+            {
+                Console.WriteLine($"Key : {primeMinister.Key}, Value : { primeMinister.Value }");
+            }
         }
     }
 }
