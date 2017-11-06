@@ -5,6 +5,7 @@
 This repository contains code for examples from the [C# Collection fundamentals Pluralsight course](https://app.pluralsight.com/library/courses/csharp-collections).
 
 The codebase builds on the examples from the course and incorporates recent changes to C# language as of Nov 2017.The examples use features available in C# 6 & 7 like `String Interpolation` and `Inline Functions`. The examples also try to use a functional style of programming in C# instead of imperative one. Common example of the functional style is usage of LINQ operators over looping constructs like `for` and `foreach`.
+The original codebase was built with .Net Framework 4.0 or 4.6. This codebase is built with .Net Core 2.0 framework. Ideally it should work with .net Framework 4.0 and higher but it has not been tested against it.
 
 Examples contain following :
 * Arrays
