@@ -16,7 +16,22 @@ namespace Dictionaries
 
             foreach (var primeMinister in primeMinisters)
             {
-                Console.WriteLine(primeMinister.Value);
+                Console.WriteLine($"Key : {primeMinister.Key}, Value : { primeMinister.Value }");
+            }
+
+            Console.WriteLine("Searching for Narendra Modi using TryGetValue method");
+
+            PrimeMinister pmModi;
+
+            bool found = primeMinisters.TryGetValue("NM", out pmModi);
+
+            if(found)
+            {
+                Console.WriteLine("Modiji found");
+            }
+            else
+            {
+                Console.WriteLine("Modiji not found");
             }
         }
     }
