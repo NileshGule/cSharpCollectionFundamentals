@@ -29,7 +29,8 @@ Examples contain following :
 	* [Stack example](LinkedList/StackExample.cs)
 	* [Queue example](LinkedList/QueueExample.cs)
 * Dictionaries
-	* Dictionary
+	* [Dictionary example](Dictionaries/DictionaryExample.cs)
+    * [Dictionary key Equality](Dictionaries/DictionaryKeyEqualityExample.cs)
 	* ReadOnlyDictionary
 	* SortedList
 	* SortedDictionary
