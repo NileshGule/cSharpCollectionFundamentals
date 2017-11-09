@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Dictionaries
 {
-    static class Program
+    static class DictionaryExample
     {
         static void Main(string[] args)
         {
