@@ -7,12 +7,7 @@ namespace Dictionaries
     {
         static void Main(string[] args)
         {
-            var primeMinisters = new Dictionary<string, PrimeMinister>
-            {
-                { "JN", new PrimeMinister("Jawaharlal Nehru", 1947) },
-                { "LS", new PrimeMinister("Lalbahadur Shastri", 1964) },
-                { "IG", new PrimeMinister("Indira Gandhi", 1967) }
-            };
+            var primeMinisters = DictionaryUtils.PrimeMinsters;
 
             foreach (var primeMinister in primeMinisters)
             {

@@ -31,7 +31,7 @@ Examples contain following :
 * Dictionaries
 	* [Dictionary example](Dictionaries/DictionaryExample.cs)
     * [Dictionary key Equality](Dictionaries/DictionaryKeyEqualityExample.cs)
-	* ReadOnlyDictionary
+	* [ReadOnlyDictionary](Dictionaries/ReadOnlyDictionaryExample.cs)
 	* SortedList
 	* SortedDictionary
 	* KeydCollection
