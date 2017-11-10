@@ -32,7 +32,7 @@ Examples contain following :
 	* [Dictionary example](Dictionaries/DictionaryExample.cs)
     * [Dictionary key Equality](Dictionaries/DictionaryKeyEqualityExample.cs)
 	* [ReadOnlyDictionary](Dictionaries/ReadOnlyDictionaryExample.cs)
-	* SortedList
+	* [SortedList](Dictionaries/SortedListExample.cs)
 	* SortedDictionary
 	* KeydCollection
 	* Hash tables
