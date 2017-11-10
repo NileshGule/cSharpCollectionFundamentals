@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 
 namespace Dictionaries
@@ -12,5 +13,13 @@ namespace Dictionaries
         };
 
         public static Dictionary<string, PrimeMinister> PrimeMinsters { get => primeMinsters; set => primeMinsters = value; }
+
+        public static void PrintPrimeMinisters(Dictionary<string, PrimeMinister> primeMinisters)
+        {
+            foreach(var primeMinister in primeMinisters)
+            {
+                Console.WriteLine(primeMinister);
+            }
+        }
     }
 }
