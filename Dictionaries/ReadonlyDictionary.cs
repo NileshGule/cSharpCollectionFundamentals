@@ -12,7 +12,11 @@ namespace Dictionaries
 
             ReadOnlyDictionary<string, PrimeMinister> unmodifieblePMs = new ReadOnlyDictionary<string, PrimeMinister>(primeMinisters);
 
-            DictionaryUtils.PrintPrimeMinisters(primeMinisters);
+            foreach(var primeMinister in unmodifieblePMs)
+            {
+                Console.WriteLine(primeMinister);
+            }
+        
         }
     }
 }
