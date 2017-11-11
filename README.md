@@ -40,3 +40,5 @@ Examples contain following :
     * [HashSet Intersect example](Sets/HashSetIntersectExample.cs)
     * [HashSet Union example](Sets/HashSetUnionExample.cs)
     * [HashSet Symmetric example](Sets/HashSetSymmetricExample.cs)
+    * [HashSet Difference example](Sets/HashSetDifferenceExample.cs)
+    * [HashSet Equals example](Sets/HashSetEqualsExample.cs)
