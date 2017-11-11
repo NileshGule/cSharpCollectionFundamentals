@@ -7,24 +7,14 @@ namespace Dictionaries
     {
         static void Main(string[] args)
         {
-            var primeMinisters = new Dictionary<string, PrimeMinister>(StringComparer.InvariantCultureIgnoreCase)
-            {
-                { "JN", new PrimeMinister("Jawaharlal Nehru", 1947) },
-                { "LS", new PrimeMinister("Lalbahadur Shastri", 1964) },
-                { "IG", new PrimeMinister("Indira Gandhi", 1967) }
-            };
-
+            var primeMinisters = new Dictionary<string, PrimeMinister>(DictionaryUtils.PrimeMinsters, StringComparer.InvariantCultureIgnoreCase);
+            
             Console.WriteLine(primeMinisters["ig"]);
 
             Console.WriteLine("Comparing using Custom comparer");
             
-            var primeMinistersForCustomComparer = new Dictionary<string, PrimeMinister>(new UncasedStringEqualityComparer())
-            {
-                { "JN", new PrimeMinister("Jawaharlal Nehru", 1947) },
-                { "LS", new PrimeMinister("Lalbahadur Shastri", 1964) },
-                { "IG", new PrimeMinister("Indira Gandhi", 1967) }
-            };
-
+            var primeMinistersForCustomComparer = new Dictionary<string, PrimeMinister>(DictionaryUtils.PrimeMinsters, new UncasedStringEqualityComparer());
+            
             Console.WriteLine(primeMinistersForCustomComparer["ig"]);
         }
 
