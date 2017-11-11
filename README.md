@@ -37,3 +37,6 @@ Examples contain following :
 	* [KeyedCollection](Dictionaries/KeyedCollectionExample.cs)
 * Sets
     * [HashSet example](Sets/HashSetExample.cs)
+    * [HashSet Intersect example](Sets/HashSetIntersectExample.cs)
+    * [HashSet Union example](Sets/HashSetUnionExample.cs)
+    * [HashSet Symmetric example](Sets/HashSetSymmetricExample.cs)
