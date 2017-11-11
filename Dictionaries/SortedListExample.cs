@@ -8,7 +8,7 @@ namespace Dictionaries
     {
         public static void Main(string[] args)
         {
-            SortedList<string, PrimeMinister> primeMinisters = new SortedList<string, PrimeMinister>()
+            SortedList<string, PrimeMinister> primeMinisters = new SortedList<string, PrimeMinister>
             {
                 { "JN", new PrimeMinister("Jawaharlal Nehru", 1947) },
                 { "LS", new PrimeMinister("Lalbahadur Shastri", 1964) },
@@ -18,10 +18,7 @@ namespace Dictionaries
             primeMinisters.Add("NM", new PrimeMinister("Narendra Modi", 2014));
             primeMinisters.Add("AB", new PrimeMinister("Atal Bihari Vajapeyi", 1998));
 
-            foreach (var primeMinister in primeMinisters)
-            {
-                Console.WriteLine(primeMinister);
-            }
+            DictionaryUtils.PrintPrimeMinisters(primeMinisters);
         }
     }
 }

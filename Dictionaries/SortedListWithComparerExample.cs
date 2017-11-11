@@ -18,10 +18,7 @@ namespace Dictionaries
             primeMinisters.Add("NM", new PrimeMinister("Narendra Modi", 2014));
             primeMinisters.Add("AB", new PrimeMinister("Atal Bihari Vajapeyi", 1998));
 
-            foreach (var primeMinister in primeMinisters)
-            {
-                Console.WriteLine(primeMinister);
-            }
+            DictionaryUtils.PrintPrimeMinisters(primeMinisters);
 
             Console.WriteLine($"{Environment.NewLine}Searching with String comparer");
             Console.WriteLine(primeMinisters["ig"]);
