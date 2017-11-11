@@ -23,7 +23,6 @@ namespace Arrays
 
                 Console.WriteLine($"Modified day = {day}, original day = {daysOfWeek[index]}");
             }
-
             
             Console.WriteLine();
 
@@ -34,8 +33,6 @@ namespace Arrays
 
                 Console.WriteLine(daysOfWeek[index]);
             }
-
-            
         }
     }
 }
