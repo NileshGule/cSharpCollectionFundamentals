@@ -35,3 +35,5 @@ Examples contain following :
 	* [SortedList](Dictionaries/SortedListExample.cs)
 	* [SortedDictionary](Dictionaries/SortedDictionaryExample.cs)
 	* [KeyedCollection](Dictionaries/KeyedCollectionExample.cs)
+* Sets
+    * [HashSet example](Sets/HashSetExample.cs)
