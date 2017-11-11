@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace Sets
 {
-    public static class HashSetUnionExample
+    public class HashSetDifferenceExample
     {
         static void Main(string[] args)
         {
@@ -29,10 +29,10 @@ namespace Sets
             Console.WriteLine($"Number of elements in cities in Uk = {citiesInUK.Length} {Environment.NewLine}");
             citiesInUK.ToList().ForEach(x => Console.WriteLine(x));
 
-            Console.WriteLine("Using union method");
-            bigCities.UnionWith(citiesInUK);
+            Console.WriteLine("Using ExceptWith method");
+            bigCities.ExceptWith(citiesInUK);
             
-            Console.WriteLine($"Number of elements after union = {bigCities.Count} {Environment.NewLine}");
+            Console.WriteLine($"Number of elements after Except = {bigCities.Count} {Environment.NewLine}");
             bigCities.ToList().ForEach(x => Console.WriteLine(x));
 
         }

@@ -27,6 +27,7 @@ namespace Sets
                 };
 
             Console.WriteLine($"Number of elements in cities in Uk = {citiesInUK.Length} {Environment.NewLine}");
+            citiesInUK.ToList().ForEach(x => Console.WriteLine(x));
 
             Console.WriteLine("Using SymmetricExceptWith method");
             bigCities.SymmetricExceptWith(citiesInUK);
