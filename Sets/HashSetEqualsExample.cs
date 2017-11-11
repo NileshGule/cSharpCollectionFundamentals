@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace Sets
 {
-    public class HashSetEqualsExample
+    public static class HashSetEqualsExample
     {
         static void Main(string[] args)
         {
