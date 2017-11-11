@@ -33,6 +33,6 @@ Examples contain following :
     * [Dictionary key Equality](Dictionaries/DictionaryKeyEqualityExample.cs)
 	* [ReadOnlyDictionary](Dictionaries/ReadOnlyDictionaryExample.cs)
 	* [SortedList](Dictionaries/SortedListExample.cs)
-	* SortedDictionary
-	* KeydCollection
+	* [SortedDictionary](Dictionaries/SortedDictionaryExample.cs)
+	* [KeyedCollection](Dictionaries/KeyedCollectionExample.cs)
 	* Hash tables
