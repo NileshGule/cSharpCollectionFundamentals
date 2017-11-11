@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 
 namespace Sets
@@ -19,10 +20,10 @@ namespace Sets
                 "Paris"
             };
 
-            bool isAdded = bigCities.Add("Sheffield".ToUpper());
+            bool isAdded = bigCities.Add("Sheffield".ToUpper(CultureInfo.InvariantCulture));
             Console.WriteLine($"Added Sheffield = {isAdded}");
 
-            isAdded = bigCities.Add("Beijing".ToUpper());
+            isAdded = bigCities.Add("Beijing".ToUpper(CultureInfo.InvariantCulture));
             Console.WriteLine($"Added Beijing = {isAdded}");
 
             bigCities.ToList().ForEach(x => Console.WriteLine(x));
