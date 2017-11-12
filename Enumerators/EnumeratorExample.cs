@@ -17,9 +17,14 @@ namespace Enumerators
                 "Sunday"
             };
 
+            Console.WriteLine($"{Environment.NewLine}Enumerting items using explicit enumerator");
             DisplayItems(daysOfWeek);
 
+            Console.WriteLine($"{Environment.NewLine}Enumeration works on strings as well");
             DisplayItems("Hello World");
+
+            Console.WriteLine($"{Environment.NewLine}Enumerating items using foreach loop");
+            DisplayItems2(daysOfWeek);
         }
 
         static void DisplayItems<T>(IEnumerable<T> collection)
@@ -33,6 +38,14 @@ namespace Enumerators
                     Console.WriteLine(item);
                     hasMoreItems = enumerator.MoveNext();
                 }
+            }
+        }
+
+        static void DisplayItems2<T>(IEnumerable<T> collection)
+        {
+            foreach (T item in collection)
+            {
+                Console.WriteLine(item);
             }
         }
     }
