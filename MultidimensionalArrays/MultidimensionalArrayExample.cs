@@ -8,6 +8,8 @@ namespace MultidimensionalArrays
         {
             float[,] temperatureGrid = new float[4,3];
 
+            Console.WriteLine($"Rank / dimensions of array = {temperatureGrid.Rank}");
+
             for(int x = 0; x < temperatureGrid.GetLength(0); x++)
             {
                 for (int y =0; y < temperatureGrid.GetLength(1); y++)
