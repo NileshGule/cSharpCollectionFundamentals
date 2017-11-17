@@ -10,17 +10,17 @@ namespace MultidimensionalArrays
 
             Console.WriteLine($"Rank / dimensions of array = {temperatureGrid.Rank}");
 
-            for(int x = 0; x < temperatureGrid.GetLength(0); x++)
+            for(int x = temperatureGrid.GetLowerBound(0); x <= temperatureGrid.GetUpperBound(0); x++)
             {
-                for (int y =0; y < temperatureGrid.GetLength(1); y++)
+                for (int y = temperatureGrid.GetLowerBound(1); y <= temperatureGrid.GetUpperBound(1); y++)
                 {
                     temperatureGrid[x,y] = x + 10 * y;
                 }
             }
 
-            for(int x = 0; x < temperatureGrid.GetLength(0); x++)
+            for(int x = temperatureGrid.GetLowerBound(0); x <= temperatureGrid.GetUpperBound(0); x++)
             {
-                for (int y =0; y < temperatureGrid.GetLength(1); y++)
+                for (int y = temperatureGrid.GetLowerBound(1); y <= temperatureGrid.GetUpperBound(1); y++)
                 {
                     Console.Write($"{temperatureGrid[x,y]}, ");
                 }
