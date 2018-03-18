@@ -1,4 +1,5 @@
 # C# Collection Fundamentals
+
 ![Build Status](https://travis-ci.org/NileshGule/cSharpCollectionFundamentals.svg?branch=master)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/f091b78b4e654f968b98fb273afbb5b0)](https://www.codacy.com/app/vn_nilesh/cSharpCollectionFundamentals?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=NileshGule/cSharpCollectionFundamentals&amp;utm_campaign=Badge_Grade)
 
@@ -8,6 +9,7 @@ The codebase builds on the examples from the course and incorporates recent chan
 The original codebase was built with .Net Framework 4.0 or 4.6. This codebase is built with .Net Core 2.0 framework. Ideally it should work with .net Framework 4.0 and higher but it has not been tested against it.
 
 Examples contain following :
+
 * Arrays
     * [Copy Arrays](Arrays/ArrayCopy.cs)
     * [Array Covarience](Arrays/ArrayCovarience.cs)
